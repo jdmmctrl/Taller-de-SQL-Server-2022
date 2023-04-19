@@ -1,0 +1,7 @@
+En Azure SQL Database, no se puede establecer la intercalación del servidor. Se establece en la intercalación predeterminada (y más común) de SQL_Latin1_General_CP1_CI_AS, pero puede establecer la intercalación de la base de datos. Si eso se divide en fragmentos:
+
+SQL significa que se trata de una intercalación de SQL Server (en lugar de una intercalación binaria o de Windows).
+Latin1_General especifica el alfabeto o idioma que se va a usar al ordenar.
+CP1 hace referencia a la página de códigos que usa la intercalación.
+CI significa que no distinguirá mayúsculas y minúsculas. CS significaría que distingue mayúsculas y minúsculas.
+AS significa que distinguirá los acentos. AI significa que no distingue los acentos.
